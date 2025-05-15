@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F0F2F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    border: 2px solid blue;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.game_Heading{
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: skyblue;
+}
+.player_heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #0a8212;
+}
+.playerTwoChances,
+.playerThreeChances,
+.playerFourChances,
+.error{
+    text-align: center;
+    color: red;
+}
+.inputOne,
+.inputTwo,
+.inputThree,
+.inputFour{
+    height: 40px;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 0 30px;
+    border: 1px solid;
+}
+.player-one-btn,
+.player-two-btn,
+.player-three-btn,
+.player-four-btn{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    padding: 0 30px;
+    border: none;
+}
+.inputTwo,
+.player-two-btn,
+.playerTwoChances{
+    display: none;
+}
+.inputThree,
+.player-three-btn,
+.playerThreeChances{
+    display: none;
+}
+.inputFour,
+.player-four-btn,
+.playerFourChances{
+    display: none;
+}
